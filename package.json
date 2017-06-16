@@ -1,0 +1,27 @@
+{
+  "name": "tofu-utils",
+  "version": "1.0.0",
+  "description": "The util collections for Tofu.",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "compile": "rollup -c",
+    "test": "npm run compile && mocha --require intelli-espower-loader"
+  },
+  "keywords": [
+    "tofu",
+    "utils"
+  ],
+  "author": "shanevv",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.4.2",
+    "power-assert": "^1.4.4",
+    "rollup": "^0.43.0",
+    "rollup-plugin-babel": "^2.7.1"
+  }
+}
