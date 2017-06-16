@@ -1,13 +1,14 @@
 {
   "name": "tofu-utils",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "The util collections for Tofu.",
   "main": "dist/bundle.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
     "compile": "rollup -c",
-    "test": "npm run compile && mocha --require intelli-espower-loader"
+    "test": "npm run compile && mocha --require intelli-espower-loader",
+    "issue": "npm run test && npm publish"
   },
   "keywords": [
     "tofu",
